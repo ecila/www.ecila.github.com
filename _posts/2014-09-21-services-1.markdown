@@ -1,0 +1,8 @@
+---
+layout: default
+img: ipad.png
+category: Services
+title: This has changed:<br>Special Thanks
+description: |
+---
+we need some new text here man 
