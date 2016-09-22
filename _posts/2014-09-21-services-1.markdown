@@ -2,7 +2,6 @@
 layout: default
 img: ipad.png
 category: Services
-title: This has changed:<br>Special Thanks
-description: |
+title: releases & recordings:
+description: click img
 ---
-we need some new text here man 
