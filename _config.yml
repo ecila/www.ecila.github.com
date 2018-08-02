@@ -1,29 +1,43 @@
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
+# Site settings
+title: Alice Eldridge
+description: 'things I think, make and do'
+url: 'ecila.org'
+baseurl: '/ecila.org'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
 
-url: http://yoursite.com
-title: ecila
-email: your-email@domain.com
-author: Alice Eldridge
-description: > # "soundscape composition cello research experimental"
+author:
+  name: 'Alice Eldridge'
+  email: alice_at_ecila.org
+  twitter_username: alicealicealice
+  facebook_username: alice.eldridge.90
+  github_username:  ecila
+  # linkedin_username:  joshgerdes
 
-# ----------------------- #
-#    Jekyll & Plugins     #
-# ----------------------- #
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
 # Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
 markdown: kramdown
-permalink: pretty
+highlighter: rouge
 
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
+sass:
+    sass_dir: _sass
+    style: compressed
 
-social:
-  - title: twitter
-    url: https://twitter.com/alicealicealice
-  - title: github
-    url: https://github.com/ecila
-  - title: linkedin
-    url: 
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
