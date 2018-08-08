@@ -1,8 +1,8 @@
 # Site settings
 title: Alice Eldridge
 description: 'things I think, make and do'
-url: 'http://ecila.github.io/'
-baseurl: 'http://ecila.github.io/'
+url: 'www.ecila.org'
+baseurl: 'www.ecila.org/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
